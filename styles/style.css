@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+#logo{
+    display: block;
+    max-width:100px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+.main{
+    margin-top: 100px;
+    overflow: hidden;
+    color: white;
+}
+.joinmessage{
+    font-size: 60px;
+    text-align: center;
+}
+.main h1{
+    font-size: 80px;
+    color: red;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+body{
+    background-color: #000000;
+
+}
+*{
+    overflow: visible !important;
+}
+#particles-js{
+    position: fixed;
+    top: 0%;
+    z-index: -30;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.76) !important;
+    color: white !important;
+    backdrop-filter: blur(10px) !important;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+#particles-js{
+    position: fixed;
+    top: 0%;
+    z-index: -30;
+    width: 100%;
+}
+*{
+    transition: all 0.2s ease-in-out;
+}
+.nav-item{
+    color: white !important;
+}
+
+.redborder{
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+.redborder .nav-item{
+    color: black !important;
+}
+#demo{
+    color: red;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+}
+.fa-calendar-times{
+    font-size: 90px;
+    color: rgb(255, 0, 0);
+    margin-right: 10px;
+}
+.nav-item:hover{
+    color: red !important;
+}
+.borderWhite{
+    border: white 2px solid;
+}
+.register{
+    width: 200px;
+}
+.btn-outline-danger:hover{
+    background-color: red !important;
+}
+.wow {
+    visibility: hidden;
+ }
+.description{
+    margin-top: 250px;
+    color: black;
+    padding: 20px;
+} 
+.input{
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: all 0.3s ease-out;
+    font-size: 16px;
+    background: white;
+    color: black;
+    border:red 2px solid;
+}
+.textarea{
+    font-size: 16px;
+    background: white;
+    color: black;
+    border:red 2px solid;
+    transition: none !important;
+    width: 300px;
+    height: 50px;
+}
+.input:focus{
+    outline: none;
+    width: 320px;
+}
+.textarea:focus{
+    outline: none;
+}
+.bg{
+    background-color: red;
+}
+.page-footer{
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+.page-footer a{
+    color: white;
+}
